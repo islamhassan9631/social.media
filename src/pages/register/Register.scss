@@ -1,0 +1,91 @@
+.Register{
+
+    height: 100vh;
+  background-color: rgb(193,190,255);
+  display: flex;
+
+ 
+
+  justify-content: center;
+
+ align-items: center;
+    .card{
+        width: 50%;
+        // margin-left: 100px;
+        // margin-right: 100px;
+        // align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border-radius: 10px;
+        max-height: 500px;
+        overflow: hidden;
+       
+        
+       .left{
+        flex: 1;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcNzW7g-C8NgVmvGI9PtSJ76tvM0sP5VtnCQ&usqp=CAU") ;
+        background-position: center;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        // color: rgb(39, 33, 33);
+        color: #fff;
+        h1{
+            font-size: 100px;
+            line-height: 100px;
+        }
+        p{}
+        span{
+            font-size: 14px;
+            color: black;
+        }
+        button{
+            width: 50%;
+            padding: 10px;
+            border: none;
+            background: white;
+            color: purple;
+          font-weight: bold;
+          cursor: pointer;
+
+        }
+       }
+       .right{
+        flex: 1;
+        padding:30px ;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        h1{
+color: #555;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            input{
+                border: none;
+                border-bottom: 1px solid lightgrey;
+                padding: 20px 10px;
+
+            }
+            button{
+                width: 50%;
+                padding: 10px 5px;
+                border: none;
+                background-color: #938eef;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+        }
+       }
+    }
+}
